@@ -1,0 +1,121 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Zbytek je na tobě, kámo! */
+
+body {
+  background: url('images/pozadi.jpg') center no-repeat;
+  background-size: cover;
+  color: rgb(29, 41, 53);
+  text-align: center;
+  font-family: 'Changa', sans-serif;
+}
+
+h1 {
+  font-size: 84px;
+  margin: 20px;
+  color: #eaf0f1;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  margin: 0;
+}
+
+#tlacitka {
+  background: linear-gradient(#eaf0f1, #808485);
+  border: 5px solid rgb(29, 41, 53);
+  box-shadow: 0 3px 15px silver;
+  border-radius: 15px;
+  width: 350px;
+  margin: 25px auto 25px auto;
+}
+
+#brno,
+#bratislava,
+#berlin{
+  border: none;
+  background-color: transparent;
+  font-family: 'Changa', sans-serif;
+  font-size: 25px;
+  color: rgb(29, 41, 53);
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#brno {
+  border-right: 3px solid rgb(29, 41, 53);
+}
+
+#berlin {
+  border-left: 3px solid rgb(29, 41, 53);
+}
+
+
+#brno:hover {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+#bratislava:hover {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+#berlin:hover {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+
+#brno:active {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+#bratislava:active {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+#berlin:active {
+  background-color: rgb(29, 41, 53);
+  color: #eaf0f1;
+}
+
+#pocasi {
+  background: linear-gradient(#acb1b3, #404242);
+  border: 5px solid rgb(29, 41, 53);
+  box-shadow: 0 3px 15px silver;
+  border-radius: 15px;
+  width: 350px;
+  margin: 25px auto 25px auto;
+}
+
+.prvniUdaje {
+  padding: 5px;
+  border-top: 2px solid rgb(29, 41, 53);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#teplota {
+  font-size: 35px;
+}
+
+.druheUdaje {
+  padding: 5px;
+  border-top: 2px solid rgb(29, 41, 53);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tretiUdaje {
+  padding: 5px;
+  border-top: 2px solid rgb(29, 41, 53);
+  display: flex;
+  justify-content: space-evenly;
+}
